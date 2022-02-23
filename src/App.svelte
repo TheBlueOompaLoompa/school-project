@@ -1,6 +1,5 @@
 <script>
   import Marquee from "./lib/Marquee.svelte";
-  import Flashing from './lib/Flashing.svelte';
 
   let funny = 'Hello, world';
 </script>
