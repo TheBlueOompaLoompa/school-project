@@ -9,7 +9,7 @@
             #ff00ff,
             #00dbff,
             #ff00ff,
-            hsl(188, 100%, 50%)
+            #00ddff
         );
         background-size: 300% 400%;
 
