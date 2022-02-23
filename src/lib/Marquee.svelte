@@ -1,5 +1,9 @@
+<script>
+    export let text;
+</script>
+
 <div>
-    <mq><slot/></mq>
+    <mq><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2></mq>
 </div>
 
 <style>
@@ -13,14 +17,20 @@
         );
         background-size: 300% 400%;
 
-        -webkit-animation: BackgroundGradient 3s linear infinite;
-        -moz-animation: BackgroundGradient 3s linear infinite;
-        animation: BackgroundGradient 3s linear infinite;
+        -webkit-animation: BackgroundGradient 10s linear infinite;
+        -moz-animation: BackgroundGradient 10s linear infinite;
+        animation: BackgroundGradient 10s linear infinite;
 
-        width: 100%;
+        display: flex;
+        align-items: center;
+
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
         height: 32px;
 
-        border-radius: 16px;
+        border: none;
         overflow: hidden;
     }
 
@@ -32,8 +42,15 @@
         -moz-animation: Marquee 5s linear infinite;
         animation: Marquee 5s linear infinite;
 
-        display: flex;
-        align-items: center;
+        margin: 0 auto;
+        white-space: nowrap;
+        position: absolute;
+    }
+
+    h2 {
+        display: inline-block;
+        margin: 0px;
+        margin-right: 20px;
     }
 
     @-webkit-keyframes BackgroundGradient {
@@ -64,26 +81,26 @@
     
     @-webkit-keyframes Marquee {
         0% {
-            padding-left: 0px;
+            transform: translate(0%, 0);
         }
         100% {
-            padding-left: 100%; 
+            transform: translate(-25%, 0);
         }
     }
     @-moz-keyframes Marquee {
         0% {
-            padding-left: 0px;
+            transform: translate(0%, 0);
         }
         100% {
-            padding-left: 100%; 
+            transform: translate(-25%, 0);
         }
     }
     @keyframes Marquee {
         0% {
-            padding-left: 0px;
+            transform: translate(0%, 0);
         }
         100% {
-            padding-left: 100%; 
+            transform: translate(-25%, 0);
         }
     }
 </style>

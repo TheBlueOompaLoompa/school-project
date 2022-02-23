@@ -1,13 +1,18 @@
 <script>
-    import Marquee from "./lib/Marquee.svelte";
+  import Marquee from "./lib/Marquee.svelte";
+  import Flashing from './lib/Flashing.svelte';
+
+  let funny = 'Hello, world';
 </script>
 
-<Marquee>
-    <h2>Beans</h2>
-</Marquee>
+<Marquee text="{'BREAKING NEWS! '}{funny}!"/>
+
+<main>
+  <input type="text" bind:value={funny}>
+</main>
 
 <style>
-    h2 {
-        margin: 0px;
-    }
+  main {
+    padding-top: 32px;
+  }
 </style>
