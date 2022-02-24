@@ -1,9 +1,10 @@
 <script>
     export let text;
+    export let pos = 0;
 </script>
 
-<div>
-    <mq><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2></mq>
+<div style="top: {pos}px;">
+    <mq><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2></mq>
 </div>
 
 <style>
@@ -25,7 +26,6 @@
         align-items: center;
 
         position: absolute;
-        top: 0px;
         left: 0px;
         right: 0px;
         height: 32px;
@@ -84,7 +84,7 @@
             transform: translate(0%, 0);
         }
         100% {
-            transform: translate(-25%, 0);
+            transform: translate(-16.666666%, 0);
         }
     }
     @-moz-keyframes Marquee {
@@ -92,7 +92,7 @@
             transform: translate(0%, 0);
         }
         100% {
-            transform: translate(-25%, 0);
+            transform: translate(-16.666666%, 0);
         }
     }
     @keyframes Marquee {
@@ -100,7 +100,7 @@
             transform: translate(0%, 0);
         }
         100% {
-            transform: translate(-25%, 0);
+            transform: translate(-16.666666%, 0);
         }
     }
 </style>

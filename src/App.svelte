@@ -1,17 +1,28 @@
 <script>
   import Marquee from "./lib/Marquee.svelte";
 
-  let funny = 'Hello, world';
+  let text = 'Input text into the text box!';
 </script>
 
-<Marquee text="{'BREAKING NEWS! '}{funny}!"/>
+<Marquee text="{'THE CULTURE OF CODING!'}" />
 
 <main>
-  <input type="text" bind:value={funny}>
+  <input bind:value={text}>
+  <Marquee text="{text}" pos=2000 />
 </main>
 
 <style>
   main {
     padding-top: 32px;
+  }
+
+  input {
+    position: absolute;
+    top: 1950px;
+    left: 10px;
+    right: 10px;
+    
+    width: calc(100% - 20px);
+    height: 30px;
   }
 </style>
