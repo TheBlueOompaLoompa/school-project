@@ -1,7 +1,7 @@
 <script>
   import Marquee from "./lib/Marquee.svelte";
 
-  import Article fronm './lib/Article.svelte'
+  import Article from './lib/Article.svelte'
 
   let text = 'Input text into the text box!';
 </script>
