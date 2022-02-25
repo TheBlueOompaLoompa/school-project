@@ -34,7 +34,6 @@
         overflow: hidden;
     }
     
-
     div mq {
         font-family: 'Courier New', Courier, monospace;
         color: white;
