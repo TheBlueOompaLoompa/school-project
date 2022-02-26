@@ -4,7 +4,7 @@
 </script>
 
 <div style="top: {pos}px;">
-    <mq><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2></mq>
+    <mq><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2><h2>{text}</h2></mq>
 </div>
 
 <style>
@@ -38,9 +38,12 @@
         font-family: 'Courier New', Courier, monospace;
         color: white;
 
-        -webkit-animation: Marquee 5s linear infinite;
-        -moz-animation: Marquee 5s linear infinite;
-        animation: Marquee 5s linear infinite;
+        --perc: -5.555555555%;
+        --speed: 2s;
+
+        -webkit-animation: Marquee var(--speed) linear infinite;
+        -moz-animation: Marquee var(--speed) linear infinite;
+        animation: Marquee var(--speed) linear infinite;
 
         margin: 0 auto;
         white-space: nowrap;
@@ -77,14 +80,13 @@
             background-position: 100% 0%;
         }
     }
-
     
     @-webkit-keyframes Marquee {
         0% {
             transform: translate(0%, 0);
         }
         100% {
-            transform: translate(-16.666666%, 0);
+            transform: translate(var(--perc), 0);
         }
     }
     @-moz-keyframes Marquee {
@@ -92,7 +94,7 @@
             transform: translate(0%, 0);
         }
         100% {
-            transform: translate(-16.666666%, 0);
+            transform: translate(var(--perc), 0);
         }
     }
     @keyframes Marquee {
@@ -100,7 +102,7 @@
             transform: translate(0%, 0);
         }
         100% {
-            transform: translate(-16.666666%, 0);
+            transform: translate(var(--perc), 0);
         }
     }
 </style>
