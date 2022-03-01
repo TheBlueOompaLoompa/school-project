@@ -1,6 +1,6 @@
 <script>
     export let text;
-    export let pos = 0;
+    export let pos = '0';
 </script>
 
 <div style="top: {pos}px;">
