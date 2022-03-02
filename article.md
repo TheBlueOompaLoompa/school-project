@@ -11,4 +11,8 @@ Even though it doesn't make sense, programmers often try to create their own ver
 
 #### Persistent
 
-Programming is often very frustrating, spending hours trying to fix one thing, only to realize you for got a semicolon.
+Programming is often very frustrating, spending hours trying to fix one thing, only to realize you forgot a semicolon.
+
+#### Adaptive
+
+The world of technology is constantly changing. This means developers have to constantly adapt too. 
