@@ -23,6 +23,10 @@ article h4 {
   margin-bottom: 0px;
 }
 
+img {
+  max-width: 200px;
+}
+
 hr {
   width: 100%;
 }

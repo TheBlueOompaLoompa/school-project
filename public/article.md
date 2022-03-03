@@ -40,6 +40,9 @@ There are many stereotypes that extist, but here are a few.
 
 1. The basement dwelling hermit - This is the most accurate out of all the stereotypes.
 2. Neckbeard - Idk this is just something that some call people who obsess over something and don't maintain their health, hence the neckbeard.
+3. Everyone's a hacker - Whenever anyone has seen a screen like ![Monitor Picture](/Untitled.svg)
+
+their mind instantly jumps to the Hollywood hacker, `clack clack clack "I'm in"`. At this point I have no idea if people actually think this is accurate or it's just a joke _(I really hope it's a joke)_, our screens may look like this, but really they are probably trying to find out why something was green instead of blue.
 
 ##### Credits
 
