@@ -28,6 +28,8 @@ If you want to you can click this [link](https://github.com/TheBlueOompaLoompa?t
 
 ## Similarites to Others
 
+There is crossover with hackers as most hackers are programmers.
+
 ## Stereotypes and Conflicts
 
 #### Conflicts
@@ -39,10 +41,18 @@ There is often a problem with developers called crunch time. Crunch time is when
 There are many stereotypes that extist, but here are a few.
 
 1. The basement dwelling hermit - This is the most accurate out of all the stereotypes.
-2. Neckbeard - Idk this is just something that some call people who obsess over something and don't maintain their health, hence the neckbeard.
-3. Everyone's a hacker - Whenever anyone has seen a screen like ![Monitor Picture](/Untitled.svg)
 
-their mind instantly jumps to the Hollywood hacker, `clack clack clack "I'm in"`. At this point I have no idea if people actually think this is accurate or it's just a joke _(I really hope it's a joke)_, our screens may look like this, but really they are probably trying to find out why something was green instead of blue.
+2. Neckbeard - Idk this is just something that some call people who obsess over something and don't maintain their health, hence the neckbeard.
+
+3. Techno Wizzards - This is pretty much true for the most part.
+
+4. Everyone's a hacker - This is the most common. When many people see a screen like
+
+![Monitor Picture](/Untitled.svg)
+
+their mind often instantly jumps to the Hollywood hacker, `clack clack clack "I'm in."` At this point I have no idea if people actually think this is accurate or it's just a joke _(I really hope it's a joke)_ our screens may look like this, but really they are probably trying to find out why something was green instead of blue.
+
+![Monitor Picture](/Blue.svg) Much Better.
 
 ##### Credits
 
