@@ -28,7 +28,7 @@ If you want to you can click this [link](https://github.com/TheBlueOompaLoompa?t
 
 ## Similarites to Others
 
-There is crossover with hackers as most hackers are programmers.
+There is crossover with hackers as most hackers are programmers. Many programmers are also people who play video games on a computer. Any job that mainly involves computers has that similarity. Other than that it's up to the individual to what they do.
 
 ## Stereotypes and Conflicts
 
