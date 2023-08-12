@@ -56,7 +56,7 @@ their mind often instantly jumps to the Hollywood hacker, `clack clack clack "I'
 
 ##### Credits
 
-Since this is public I would like to keep my identity anonymous, people in my class can identify me from the spreadsheet, or by the fact that I wear my bright orange watch almost every day.
+Since this is public I would like to keep my identity anonymous, people in my class can identify me from the spreadsheet, or by the fact that I wear my bright pink watch almost every day.
 
 ---
 
